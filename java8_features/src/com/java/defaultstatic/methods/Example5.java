@@ -19,6 +19,13 @@ interface MyInterfaceTwo {
 
 public class Example5 implements MyInterfaceTwo{
 	
+	// We can not overide static method in any class
+	
+	/*@Override
+	static int sumStatic(int a, int b) {
+		return a + b;
+	}*/
+	
 	public static void main(String[] args) {
 		
 		Example5 example5 = new Example5();
