@@ -47,7 +47,7 @@ public class LambdaExpWithOneParam {
 		System.out.println(square2.squareOfFive(5));
 
 		//3rd way
-		SingleParameterInterface square3 = no -> no * no;
+		SingleParameterInterface square3 = no -> (int)Math.pow(no, 2);  //using pow function
 		System.out.println(square3.squareOfFive(5));
 
 	}
