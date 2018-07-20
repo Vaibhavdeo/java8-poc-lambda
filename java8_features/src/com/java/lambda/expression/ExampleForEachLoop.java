@@ -14,6 +14,12 @@ public class ExampleForEachLoop {
 		list.add("ghi");
 		list.add("pqr");
 		
+		//Using foreach		
+		for(String s : list) {
+			System.out.println(s);
+		}
+		
+		//With JAVA8 lambda
 		list.forEach((name)->System.out.println(name));
 		
 		

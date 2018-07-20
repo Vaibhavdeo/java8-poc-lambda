@@ -47,7 +47,9 @@ public class LamdaExpWithMultipleStatements {
 		};
 
 		int arrayEle[] = { 4, 6, 7, 8, 9 };
+		System.out.println("Average of Array2" + average.avg(arrayEle));
 		System.out.println("Average of Array2" + average2.avg(arrayEle));
+		
 	}
 
 }
