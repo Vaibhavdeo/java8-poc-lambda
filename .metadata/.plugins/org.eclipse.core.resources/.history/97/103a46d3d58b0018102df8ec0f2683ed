@@ -1,0 +1,14 @@
+package com.java.functional.interfacedemo;
+
+//@FunctionalInterface
+public interface MyFirstFunctionalInterface {
+	
+	public void firstWork();
+	
+	public void doSomeMoreWork();
+	
+	public default void  demo() {
+		
+	}
+
+}

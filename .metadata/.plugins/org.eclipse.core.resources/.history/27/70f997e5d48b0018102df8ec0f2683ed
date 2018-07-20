@@ -1,0 +1,9 @@
+package com.java.functional.interfacedemo;
+
+public interface MyFirstFunctionalInterface {
+	
+	public void firstWork();
+	
+	public void secondWork();
+
+}

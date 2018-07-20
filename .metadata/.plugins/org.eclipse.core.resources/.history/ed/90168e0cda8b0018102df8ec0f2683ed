@@ -1,0 +1,19 @@
+package com.java.lambda.expression;
+
+@FunctionalInterface
+interface MyFunctionalInterface{
+	
+	public void sayHello();
+	
+}
+public class LamdaExpressWithNoParam {
+	
+	public static void main(String[] args) {
+		
+		MyFunctionalInterface msg  = () ->{
+			System.out.println("Hello Lambda");
+		};
+		msg.sayHello();
+	}
+
+}

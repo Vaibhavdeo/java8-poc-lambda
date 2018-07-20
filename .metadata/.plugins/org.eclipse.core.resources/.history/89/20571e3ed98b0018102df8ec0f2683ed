@@ -1,0 +1,5 @@
+package com.java.lambda.expression;
+
+public class LamdaExpressWithNoParam {
+
+}
