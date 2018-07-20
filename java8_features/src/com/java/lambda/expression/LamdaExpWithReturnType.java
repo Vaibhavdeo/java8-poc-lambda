@@ -13,10 +13,14 @@ public class LamdaExpWithReturnType {
 
 		MyFunctionalInterface1 msg = () -> {
 
-			return "Hello Lambda";
+			return "Hello Lambda1";
 		};
-
+		
+		MyFunctionalInterface1 msg2 = () -> "Hello Lambda2"; //Writing a return keyword is also optional
+		
 		System.out.println(msg.sayHello());
+		
+		System.out.println(msg2.sayHello());
 
 	}
 
