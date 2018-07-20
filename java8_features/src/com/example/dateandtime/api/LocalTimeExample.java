@@ -1,5 +1,6 @@
 package com.example.dateandtime.api;
 
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.temporal.ChronoField;
 
@@ -34,6 +35,10 @@ public class LocalTimeExample {
 		System.out.println("Minutes "+min);
 		System.out.println("seconds "+sec);
 		System.out.println("Hrs "+hr);
+		
+		//Alteration of date in current date using with keyword
+		
+		
 		
 		
 		
