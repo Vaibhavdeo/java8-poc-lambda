@@ -1,26 +1,22 @@
 package com.java.defaultstatic.methods;
 
-/*
- * 2 interface having same default methods example
- * 
- */
-interface Vehicle {
+interface Vehicles {
 
 	default void print() {
 		System.out.println("Vehicle default method");
 	}
 }
 
-interface FourWheeler {
-	
-	default void print() {
+interface FourWheelers {
+	/*default void print() {
 		System.out.println("FourWheeler default method");
-	}
+	}*/
 	
+	abstract void print();
 	
 }
 
-public class Example2 implements Vehicle, FourWheeler {
+public class Example3 implements Vehicles, FourWheelers {
 
 	/*
 	 * public void print() { System.out.println("Default class method"); }
@@ -28,11 +24,15 @@ public class Example2 implements Vehicle, FourWheeler {
 
 	// Need to overide one of the interface
 
-	@Override
+/*	@Override
 	public void print() {
 		FourWheeler.super.print();
-	}
+	}*/
 	
+	public void print() {
+		System.out.println("New default solution for one default one abstract method");
+	}
+
 	public static void main(String[] args) {
 		Example2 example2 = new Example2();
 		example2.print();
